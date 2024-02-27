@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#players-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inputs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+}

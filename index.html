@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Papayou</title>
+    <script type="text/javascript" src="static/script.js"></script>
+</head>
+
+<body>
+    <div id="players-container">
+        <h2>JOUEUR</h2>
+        <form id="players-form" method="post" action="/ok">
+            <div id="inputs-container">
+                <div class="player-input">
+                    <label for="player1">Joueur 1:</label> <br>
+                    <input type="text" id="player1" name="player1" required>
+                </div>
+                <div class="player-input">
+                    <label for="player2">Joueur 2:</label><br>
+                    <input type="text" id="player2" name="player2" required>
+                </div>
+            </div>
+            <button type="button" id="add-player">+</button>
+            <button type="submit" id="submit-players">OK</button>
+        </form>
+    </div>
+</body>
+</html>

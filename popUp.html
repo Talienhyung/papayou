@@ -1,0 +1,31 @@
+{{define "popup"}}
+{{if eq .pop 1}}
+{{.Name}} a gagné 3 manches de suite !! Continue comme ça et l'on te déclarera roi !
+{{else if eq .pop 2}}
+{{.Name}} est-ce que c'est vraiment possible d'être aussi nul ? Tu as perdu 5 manches !!!!
+{{else if eq .pop 3}}
+Si tu continues comme ça même ton reflet se moquera de toi... Tu as perdu 3 manches à la suite... {{.Name}}...
+{{else if eq .pop 4}}
+{{.Name}} C'est toi qui as gagné le plus de manches... Dommage que tu sois nul en réalité car tu as perdu quand même...
+{{else if eq .pop 5}}
+{{.Name}} est-tu un dieu ou quelque chose dans le genre ?
+{{else if eq .pop 6}}
+Quand est-ce que {{.Name}} va se decidé a gagner un mache ?
+{{else if eq .pop 7}}
+Je ne savais pas qu'il était possible d'être aussi nul... {{.Name}} me montre le contraire !
+{{else if eq .pop 8}}
+{{.Name}} semble être sur une série de défaites... Tu devrait revoir sa stratégie.
+{{else if eq .pop 13}}
+Il faudrait peut-être donner des cours à {{.Name}} pour améliorer ses compétences...
+{{else if eq .pop 15}}
+Est-ce que quelqu'un peut arrêter {{.Name}} ? Il gagne tout !
+{{else if eq .pop 20}}
+Est-ce que quelqu'un peut mettre un frein à la domination de {{.Name}} ?
+{{else if eq .pop 29}}
+{{.Name}} est sur une véritable série noire... Espérons qu'il se ressaisisse bientôt.
+{{else if eq .pop 31}}
+On peut dire que {{.Name}} a du mal à trouver ses marques aujourd'hui. Pour ne pas dire que tu est bien nul.
+{{else}}
+Il semble y avoir une erreur dans les données de la population.
+{{end}}
+{{end}}
